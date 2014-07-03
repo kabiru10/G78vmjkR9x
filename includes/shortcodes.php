@@ -72,5 +72,11 @@ function ourpeople($atts, $content = null) {
 
 }
 
+add_shortcode('testimonials', 'testimonials');
+
+function testimonials($atts, $content = null) {
+
+}
+
 ?>
 

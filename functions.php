@@ -111,6 +111,12 @@ if (function_exists('add_theme_support')) {
 }
 
 
+//Comment Form Functionality
+function avenir_comments($comment, $args, $depth) {
+    $GLOBALS['comment'] = $comment;
+}
+
+
 /* * ******************************************************************************************** */
 /* Load Theme Options Page, Custom Post Types, Custom Widgets */
 /* * ******************************************************************************************** */
