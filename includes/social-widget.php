@@ -5,7 +5,7 @@ class SocialWidget extends WP_Widget{
 	public function __construct() {
 		parent::__construct(
 			'avenir-social-widget',
-			'Custom Widget: Social Icons',
+			'Avenir: Social Icons',
 			array('description' => __('Displays a list of social icons', 'avenir'))
 		); 
 	}
